@@ -1,0 +1,193 @@
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  height: 50%
+  width: 50%;
+  color: #3D3D3D;
+}
+
+h1 {
+  font-style: italic;
+  
+}
+
+video {
+  display: block;
+  
+}
+
+section {
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+}
+
+.removed {
+  display: none;
+}
+
+.invisible {
+  opacity: 0.2;
+}
+
+.camView {
+  position: relative;
+  float: left;
+  width: calc(100% - 20px);
+  margin: 10px auto; 
+  cursor: pointer;
+  
+}
+
+.camView p {
+  position: absolute;
+  padding: 5px;
+  color: #FFF;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  font-size: 12px;
+ 
+}
+
+.webcam{
+  text-align: center;
+}
+
+.highlighter {
+  background: rgba(0, 255, 0, 0.25);
+  border: 1px dashed #fff;
+  z-index: 1;
+  position: absolute;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #dcdcdc;
+  color: black;
+  font-size: 30px;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.footer {
+   position: absolute;
+   width: 100%;
+   left: 0;
+   background-color: #dcdcdc;
+   color: black;
+   text-align: center;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 410px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background: blue;
+}
+
+.button1 {
+  border: none;
+  color: white;
+  padding: 16px 140px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 410px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.button {
+  background-color: blue; 
+  color: white; 
+  border: 2px solid blue;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.button2 {
+  border: none;
+  color: white;
+  padding: 16px 142px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  margin: 4px 410px;
+  transition-duration: 0.4s;
+  cursor: pointer;  
+}
+
+.button2 {
+  background-color: green; 
+  color: white; 
+  border: 2px solid green;
+}
+
+.button2:hover {
+  background-color: white;
+  color: black;
+}
+
+.button3 {
+  border: none;
+  color: white;
+  padding: 16px 150px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 28px;
+  margin: 4px 410px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+}
+
+.button3 {
+  background-color: orange; 
+  color: white; 
+  border: 2px solid orange;
+}
+
+.button3:hover {
+  background-color: white;
+  color: black;
+}
+
+.button4 {
+  border: none;
+  color: white;
+  padding: 12px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 500px;
+  transition-duration: 0.4s;
+  cursor: pointer;  
+}
+
+.button4 {
+  background-color: red; 
+  color: white; 
+  border: 2px solid red;
+}
+
+.button4:hover {
+  background-color: white;
+  color: black;
+}
